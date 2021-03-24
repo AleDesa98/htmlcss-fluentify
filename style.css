@@ -120,3 +120,144 @@ h1 {
     font-size: 55px;
     margin-bottom: 30px;
 }
+
+.barra-grigia {
+    position: relative;
+    background-color: #D3D3D3;
+    height: 120px;
+}
+
+.barra-grigia-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.testo-grassetto {
+    font-size: 26px;
+    color: black;
+    /* text-align: center; */
+    padding-bottom: 10px;
+}
+
+.testo-piccolo {
+    font-size: 20px;
+    color: grey;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.layout-3-colonne {
+    /* height: 500px; */
+    border-bottom: 1px solid grey;
+}
+
+.colonna-layout-3-colonne {
+    width: calc(100% / 3);
+    height: 100%;
+    padding: 25px;
+}
+
+.layout-3-colonne-img {
+    height: 200px;
+}
+
+.layout-3-colonne-img > img {
+    display:block;
+    margin:0px auto;
+    text-align:center;
+    height: 100%;
+    padding-bottom: 25px;
+}
+
+.testo-verde {
+    font-size: 26px;
+    color: #8AC21F;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+.colonna-layout-2-colonne {
+    width: calc(100% / 2);
+    height: 100%;
+}
+
+.padding-main-inferiore {
+    padding: 25px 80px;
+}
+
+.colonna-layout-2-colonne > img {
+    display:block;
+    margin: 0 auto;
+    text-align:center;
+    width: 100%;
+}
+
+.colonna-layout-2-colonne > a {
+    display: inline-block;
+    font-size: 16px;
+}
+
+.main-inferiore {
+    text-align: left;
+}
+
+.barra-grigia-footer-text {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+}
+
+footer {
+    background-color: #D3D3D3;
+    height: 120px;
+    position: relative;
+}
+
+.layout-2-colonne {
+    height: 100%;
+}
+
+.colonna-footer {
+    position: relative;
+    height: 100%;
+}
+
+.footer-text {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+}
+
+select {
+    color: grey;
+    background-color: #D3D3D3;
+    font-size: 20px;
+    border-right: #FFFFFF 0px solid;
+	border-top: #FFFFFF 0px solid;
+	border-left: #FFFFFF 0px solid;
+	border-bottom: grey 1px solid;
+}
+
+.help {
+    position: fixed;
+    bottom: 0;
+    right: 20%;
+}
+
+.tasto-help {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 5px;
+    color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #7cbb02;
+
+}
+
