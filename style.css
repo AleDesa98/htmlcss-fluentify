@@ -179,6 +179,13 @@ h1 {
     margin-bottom: 30px;
 }
 
+hr {
+    width: 20%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
 
 .colonna-layout-2-colonne {
     width: calc(100% / 2);
@@ -230,7 +237,7 @@ footer {
 .footer-text {
     position: absolute;
     top: 50%;
-    left: 10%;
+    left: 20%;
     transform: translateY(-50%);
 }
 
@@ -259,5 +266,14 @@ select {
     border-top-right-radius: 5px;
     background-color: #7cbb02;
 
+}
+
+.seleziona {
+    border-bottom: 1px solid grey;
+    margin: 0 30px;
+}
+
+.testo-seleziona {
+    padding-right: 50px;
 }
 
